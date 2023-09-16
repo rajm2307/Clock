@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'DS-Digital';
+    src: url('font/DS-DIGIT.TTF') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.clock_container {
+  font-family: 'DS-Digital', sans-serif;
+  color: rgb(202, 23, 23);
+  font-size: 50px;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-image: url("image/front-view-generic-brandless-red-modern-car_110488-1662.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+  left: 260px;
+  top: 65%;
+  bottom: 50%;
+}
+
+.clock_container_2, .clock_container_3{
+    padding: 0px 15px;
+}
+
+.content_1 span, .content_2 span, .content_3 span, .content_4 span {
+    font-family: monospace;
+}
+
+.content_1 .AMPM{
+    font-weight: bolder;
+    padding: 1px 5px;
+    font-size: large  ;
+}
+
+.content_2 .upper_content,.content_3 .upper_content,.content_4 .upper_content{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.content_2{
+    text-align: center;
+}
+
+.content_1{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.content_1 #real_time ,.content_1 #am_pm {
+    margin: 0px 5px;
+}
+
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clock_container_3{
+    display: flex;
+}
+
+.content_3, .content_4{
+    margin: 0px 5px;
+}
+
